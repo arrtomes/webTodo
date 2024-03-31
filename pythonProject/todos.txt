@@ -1,0 +1,5 @@
+add a new player
+update the OS
+make functions
+hire myself
+do more python
