@@ -3,6 +3,7 @@ import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is, ", now)
+
 while True:
     userAction = input("Type add, show, edit, complete, or exit: ")
     userAction = userAction.strip()  # Return a copy of the string with leading and trailing whitespace removed.
