@@ -28,10 +28,10 @@ while True:
     match event:
         case "Add":
             todos = functions.get_todos()
+            window['todos_listbox'].update(values=todos)
             new_todo = values['todo_input_box'] + "\n"
             todos.append(new_todo)
             functions.write_todos(todos)
-            window['todos_listbox'].update(values=todos)
 
         case "Edit":
             todo_to_edit = values['todos_listbox'][0]  # get the todo to change
